@@ -6,7 +6,7 @@ Whenever a website, git repository, or a complex command line is discussed, it w
 ## Introduction
 
 - Student's Required Configuration
-- Catalina 10.15.3 (19D76) or later
+  - Catalina 10.15.3 (19D76) or later
   - Xcode 11.3.1 (11C504) or later
   - Xcode Command Line Tools for Xcode 11.3.1
 - Instructors' Machine Configuration
