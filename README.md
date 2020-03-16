@@ -31,3 +31,4 @@ Whenever a website, git repository, or a complex command line is discussed, it w
     - Mac Keyboard layout customisation https://github.com/aasmith/mac-wasd-keyboard
       - Switch Type: Cherry MX Brown (Tactile Bump) Sound Dampeners: 0.2mm Travel Reduction
     - Audio Setup https://github.com/faisalmemon/audio-setup
+    - Video Setup https://github.com/faisalmemon/video-setup
