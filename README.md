@@ -32,3 +32,12 @@ Whenever a website, git repository, or a complex command line is discussed, it w
       - Switch Type: Cherry MX Brown (Tactile Bump) Sound Dampeners: 0.2mm Travel Reduction
     - Audio Setup https://github.com/faisalmemon/audio-setup
     - Video Setup https://github.com/faisalmemon/video-setup
+
+## Duck Duck Go
+
+- Upstream Official Source Code https://github.com/duckduckgo/iOS
+- To get Instructor's Branch 
+```
+git clone https://github.com/faisalmemon/iOS -b feature/c0 duckduckgo-ios
+cd duckduckgo-ios
+```
