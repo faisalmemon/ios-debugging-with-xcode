@@ -47,6 +47,8 @@ cd duckduckgo-ios
 
 - Background information on Bloom Filters at https://en.wikipedia.org/wiki/Bloom_filter
 - Looking at time-sensitive dynamic code
+  - To list breakpoints `br list`
+  - To delete breakpoints `br delete`
   - Setting breakpoints on a function and its closures `br set -r DuckDuckGo.FireAnimation.animate` 
   - Setting command action to make each breakpoint print a back trace (bt) and then continue (c)
 ```
@@ -57,8 +59,6 @@ Enter your debugger command(s).  Type 'DONE' to end.
 > DONE
 (lldb) 
 ```
-  - To list breakpoints `br list`
-  - To delete breakpoints `br delete`
 - Breakpoint attachment prerequisites
   - Admin privilege to debug attach `sudo DevToolsSecurity -enable`
   - Scheme setting Run > [Info Tab] > Debug Executable ticked
