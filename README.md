@@ -48,7 +48,7 @@ cd duckduckgo-ios
 - Background information on Bloom Filters at https://en.wikipedia.org/wiki/Bloom_filter
 - Looking at time-sensitive dynamic code
   - Setting breakpoints on a function and its closures `br set -r DuckDuckGo.FireAnimation.animate` 
-  - Setting command action to make each breakpoint print a back trace (bt) and the continue (c)
+  - Setting command action to make each breakpoint print a back trace (bt) and then continue (c)
 ```
 (lldb) br command add
 Enter your debugger command(s).  Type 'DONE' to end.
