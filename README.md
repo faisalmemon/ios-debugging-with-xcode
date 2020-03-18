@@ -57,3 +57,5 @@ Enter your debugger command(s).  Type 'DONE' to end.
 > DONE
 (lldb) 
 ```
+- To list breakpoints `br list`
+- To delete breakpoints `br delete`
