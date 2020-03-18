@@ -62,5 +62,6 @@ Enter your debugger command(s).  Type 'DONE' to end.
 - Breakpoint attachment prerequisites
   - Admin privilege to debug attach `sudo DevToolsSecurity -enable`
   - Scheme setting Run > [Info Tab] > Debug Executable ticked
-  - Xcode > Preferences> [Behaviour Top Tab] > [Running Pauses Left Tab] > Ticked Show Navigator "Debug Navigator"
-  - Xcode > Preferences> [Behaviour Top Tab] > [Running Pauses Left Tab] > Ticked Show Debugger with "Current Views"
+  - Xcode > Preferences> [Behaviour Top Tab] > [Running Pauses Left Tab] >
+    - Ticked Show Navigator "Debug Navigator"
+    - Ticked Show Debugger with "Current Views"
