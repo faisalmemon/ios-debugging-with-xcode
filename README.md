@@ -42,3 +42,4 @@ Whenever a website, git repository, or a complex command line is discussed, it w
 git clone https://github.com/faisalmemon/iOS -b feature/c0 duckduckgo-ios
 cd duckduckgo-ios
 ```
+- Background information on Bloom Filters at https://en.wikipedia.org/wiki/Bloom_filter
