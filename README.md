@@ -65,3 +65,11 @@ Enter your debugger command(s).  Type 'DONE' to end.
   - Xcode > Preferences> [Behaviour Top Tab] > [Running Pauses Left Tab] >
     - Ticked Show Navigator "Debug Navigator"
     - Ticked Show Debugger with "Current Views"
+- System Debugging preqrequisites (Advanced configuration noting Security/Integrity implications)
+  - Restart your computer
+  - Press Command+R during boot
+  - Supply password
+  - Select Utilities > Terminal
+  - Type `csrutil enable --without debug`
+  - Apple Icon > Restart
+  - See also [Screenshots Walkthrough](./enableSystemDebugging.pdf)
