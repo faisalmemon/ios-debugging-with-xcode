@@ -72,4 +72,4 @@ Enter your debugger command(s).  Type 'DONE' to end.
   - Select Utilities > Terminal
   - Type `csrutil enable --without debug`
   - Apple Icon > Restart
-  - See also [Screenshots Walkthrough](./enableSystemDebugging.pdf)
+  - See also [Screenshots Walkthrough](./systemDebugConfig.pdf)
