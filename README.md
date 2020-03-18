@@ -42,4 +42,18 @@ Whenever a website, git repository, or a complex command line is discussed, it w
 git clone https://github.com/faisalmemon/iOS -b feature/c0 duckduckgo-ios
 cd duckduckgo-ios
 ```
+
+## Let's explore the debugger
+
 - Background information on Bloom Filters at https://en.wikipedia.org/wiki/Bloom_filter
+- Looking at time-sensitive dynamic code
+  - Setting breakpoints on a function and its closures `br set -r DuckDuckGo.FireAnimation.animate` 
+  - Setting command action to make each breakpoint print a back trace (bt) and the continue (c)
+```
+(lldb) br command add
+Enter your debugger command(s).  Type 'DONE' to end.
+> bt
+> c
+> DONE
+(lldb) 
+```
