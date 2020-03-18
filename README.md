@@ -59,3 +59,8 @@ Enter your debugger command(s).  Type 'DONE' to end.
 ```
 - To list breakpoints `br list`
 - To delete breakpoints `br delete`
+- Breakpoint attachment pre-requisites
+  - Admin privilege to debug attach `sudo DevToolsSecurity -enable`
+  - Scheme setting Run > [Info Tab] > Debug Executable ticked
+  - Xcode > Preferences> [Behaviour Top Tab] > [Running Pauses Left Tab] > Ticked Show Navigator "Debug Navigator"
+  - Xcode > Preferences> [Behaviour Top Tab] > [Running Pauses Left Tab] > Ticked Show Debugger with "Current Views"
