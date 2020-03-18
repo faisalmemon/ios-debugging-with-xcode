@@ -72,4 +72,8 @@ Enter your debugger command(s).  Type 'DONE' to end.
   - Select Utilities > Terminal
   - Type `csrutil enable --without debug`
   - Apple Icon > Restart
+- Lifecycle Debugging
+  - To breakpoint all viewDidLoad methods in our project `br set -r DuckDuckGo.*.viewDidLoad`
   - See also [Screenshots Walkthrough](./systemDebugConfig.pdf)
+- View Hierarchy Debugging
+  - View exploration using [Facebook Chisel](https://github.com/facebook/chisel)
