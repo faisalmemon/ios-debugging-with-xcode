@@ -82,3 +82,9 @@ Enter your debugger command(s).  Type 'DONE' to end.
   - See also [Screenshots Walkthrough](./systemDebugConfig.pdf)
 - View Hierarchy Debugging
   - View exploration using [Facebook Chisel](https://github.com/facebook/chisel)
+  - Installation via brew `brew update; brew install chisel`
+  - Make LLDB debugger read in the Chisel extensions:
+```
+touch ~/.lldbinit
+echo "command script import /usr/local/opt/chisel/libexec/fblldb.py" >> ~/.lldbinit
+```
