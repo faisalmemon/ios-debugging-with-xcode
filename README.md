@@ -42,6 +42,11 @@ Whenever a website, git repository, or a complex command line is discussed, it w
 git clone https://github.com/faisalmemon/iOS -b feature/c0 duckduckgo-ios
 cd duckduckgo-ios
 ```
+- Install the Brew Package manager from [Brew HomePage](https://brew.sh) using:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+- Install the Carthage Package Manager using Brew `brew install carthage`
 
 ## Let's explore the debugger
 
