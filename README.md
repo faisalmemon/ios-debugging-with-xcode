@@ -88,3 +88,9 @@ Enter your debugger command(s).  Type 'DONE' to end.
 touch ~/.lldbinit
 echo "command script import /usr/local/opt/chisel/libexec/fblldb.py" >> ~/.lldbinit
 ```
+- Exploring multi-process debugging
+  - Example xpc service https://github.com/faisalmemon/xpc-service-example
+```
+git clone https://github.com/faisalmemon/xpc-service-example -b feature/c0 xpc-service-example
+cd xpc-service-example
+```
